@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="black.jpeg" />
+  <title>LIVE_INTERPRETER</title>
+
+  <script>  
+    function lw()
+{
+  var x = document.getElementById("d1");
+  //y = x.innerHTML;
+
+  var z = document.getElementById('d3');
+  // z.value = x.innerHTML;
+  x.innerHTML = z.value;
+}
+ </script>
+</head>
+
+<body>
+  <div id="d1">Let's see the change</div>
+
+  <b> Enter Your code</b>
+  <textarea id="d3" onkeyup="lw()"></textarea>
+  </br>
+ 
+</body>
+
+</html>

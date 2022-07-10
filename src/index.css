@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+div#d1{
+  background-color: antiquewhite;
+
+
+}
+textarea#d3 {
+  display: block;
+  width: 55%;
+  height: 200px;
+  color: rgba(0, 0, 0, 0.523);
+  padding-bottom: 100px;
+  padding-top: 20px;
+  font-style: italic;
+  padding-left: 50px;
+  box-shadow: 30px 10px 20px rgb(107, 132, 110);
+  border: 5px  inherit  rgb(121, 237, 119);
+  border-radius: 60px;
+  text-align: left;
+  background-size: 200px;
+  background-color: whitesmoke ;
+  text-shadow: 5px 5px 2px grey;
+
+}
+
+
+    a{
+      display: block;
+      width: 200px;
+      height: 25px;
+      background: black;
+      color: white;
+      border: 20px solid grey;
+      text-decoration: none;
+      text-align: center;
+      padding-top: 20px;
+      border-radius: 5px;
+      box-shadow: 10px 10px 15px grey;
+      transform: rotate(2deg);
+    
+    }
+    
+    a:hover {
+      width: 210px;
+      background: grey;
+      box-shadow: 20px 10px 5px salmon;
+      text-shadow: 2px 2px 2 px rgb(89, 181, 227);
+      transform: rotate(0deg);
+      }
+   
+    

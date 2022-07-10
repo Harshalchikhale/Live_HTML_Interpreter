@@ -1,0 +1,42 @@
+<form name="formws1" method="post" onsubmit="return harsh()" action="http://www.google.com/search"> 
+
+	Enter user name: <input type="text"  name="q" /><br />
+	password: <input type="password" required /><br />
+
+	Enter your gender:
+	Male <input type="radio" name="g1" required />
+	Female <input type="radio" name="g1" required />
+	<br />
+
+	Choose your courses:
+<br>
+	AI <input  type="checkbox" name="c1"  />
+</br>
+    ML <input  type="checkbox" name="c1" />
+<br>
+	OC <input  type="checkbox" name="c1" />
+</br>
+	FC <input  type="checkbox" name="c1" />
+<br>
+	DEV <input type="checkbox" name="c1" />
+</br>
+	<input type="submit" required/>
+	<input type="reset" />
+	<hr>
+	
+
+</form>
+
+    <script>
+		function harsh()
+		{
+			var x = document.forms["formws1"] ["q"];
+			
+			if(x == "")
+			{
+				alert("Nothing filled");
+				return false;
+			}
+			 
+		}
+    </script>
